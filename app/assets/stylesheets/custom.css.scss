@@ -1,2 +1,40 @@
+/*$navbar-default-bg: #F8FE88;*/
+
+$btn-primary-bg: #1B809E;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #1B809E;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    height: 80vh;
+}
+
+.jumbotron h1 {
+    margin-bottom: 30px;
+}
+
+.panel-footer {
+    bottom: 0;
+}
+
+.panel-footer ul {
+    float: right;
+    list-style: none;
+}
+
+.panel-footer ul li {
+    float: left;
+    margin-left: 15px;
+}
